@@ -1,3 +1,20 @@
 p{
 	color: red
 }
+
+a{
+	color: blue
+}
+
+body {
+    font-size: 14px;
+	background-color: #188787
+}
+
+h1 {
+    color: yellow;
+    background-color: blue;
+	text-align: center;
+	border: 5px;
+	border-style: dashed;
+}
