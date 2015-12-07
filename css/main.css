@@ -18,3 +18,8 @@ h1 {
 	border: 5px;
 	border-style: dashed;
 }
+
+#mainContent {
+	margin-left: 75px;
+	margin-right: 75px;
+}
