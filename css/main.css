@@ -12,6 +12,34 @@ body {
 	background-color: #4E8699
 }
 
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: f1f1f1;
+	width: 200px;
+	position: fixed;
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color:000;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	
+}
+
+nav ul li a:hover {
+	background-color: #555;
+	color: #fff;
+}
+
+.active {
+	background-color: #4CAF50;
+	color: #fff;
+}
+
 h1 {
     color: lightblue;
     background-color: #4E8699;
@@ -22,6 +50,7 @@ h1 {
 }
 
 #mainContent {
-	margin-left: 75px;
+	margin-left: 150px;
+	padding: 25px;
 	margin-right: 75px;
 }
