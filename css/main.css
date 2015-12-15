@@ -1,3 +1,7 @@
+a{
+	color: blue
+}
+
 body {
 	font-size: 15px;
 	font-family: 'Permanent Marker', cursive;
@@ -5,15 +9,12 @@ body {
 }
 
 h1 {
+	color: lightblue;
 	font-family: 'Permanent Marker', cursive;
 	background-color: #4E8699;
 	text-align: center;
 	border: 5px;
 	border-style: dashed;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-bottom: 5%;
-	padding-top: 5%;
 }
 
 #mainContent {
@@ -94,6 +95,6 @@ img {
 	#mainContent {
 		margin-left: 5%;
 		margin-right: 5%;	
-		padding-top: 5%;
+		padding-top: 30%;
 	}
 }
