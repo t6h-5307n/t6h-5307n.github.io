@@ -1,15 +1,24 @@
-p{
-	color: black
-}
-
-a{
-	color: blue
-}
-
 body {
-    font-size: 15px;
-	font-family: 'Chewy', cursive;
-	background-color: #4E8699
+	font-size: 15px;
+	font-family: 'Permanent Marker', cursive;
+	background-color: #4E8699;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	background-color: #4E8699;
+	text-align: center;
+	border: 5px;
+	border-style: dashed;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+#mainContent {
+	margin-left: 150px;
+	margin-right: 75px;	
 }
 
 .centerMe {
@@ -22,20 +31,22 @@ nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: f1f1f1;
-	width: 150px;
-	height: 100%;
+	background-color: #f1f1f1;
+	width: 130px;
 	position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
 
-nav ul li a{
+nav ul li a {
 	display: block;
 	text-decoration: none;
-	color:000;
-	padding-bottom: 8px;
+	color: #000;
 	padding-left: 16px;
-	padding-right: 16px;
-	
+	padding-top: 8px;
+	padding-bottom: 8px;
+
 }
 
 nav ul li a:hover {
@@ -43,59 +54,46 @@ nav ul li a:hover {
 	color: #fff;
 }
 
-img{
-	max-width: 100%;
-	height: auto;
-}
-
 .active {
 	background-color: #4CAF50;
 	color: #fff;
 }
 
-h1 {
-    color: lightblue;
-    background-color: #4E8699;
-	font-family: 'Permanent Marker', cursive;
-	text-align: center;
-	border: 5px;
-	border-style: dashed;
+img {
+	max-width: 100%;
+	height: auto;
 }
 
-#mainContent {
-	margin-left: 150px;
-	margin-right: 75px;
-}
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 	nav ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		background-color: f1f1f1;
+		background-color: #f1f1f1;
 		width: 100%;
 		position: fixed;
 		top: 0;
 		left: 0;
 		height: auto;
-}
+	}
 
-	nav ul li a{
+	nav ul li a {
 		display: block;
 		text-decoration: none;
-		color:000;
-		padding-bottom: 8px;
+		color: #000;
 		padding-left: 16px;
 		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-right: 16px;
+	}
 	
-}
-	nav ul li{
+	nav ul li {
 		float: left;
 	}
+	
 	#mainContent {
 		margin-left: 5%;
-		margin-right: 5%;
-		
+		margin-right: 5%;	
+		padding-top: 5%;
 	}
-	
 }
